@@ -169,6 +169,14 @@ main {
   color: rgba(74, 59, 50, 0.897);
 }
 
+.hero-description-2 {
+  margin: 0;
+  max-width: 440px;
+  line-height: 1.7;
+  font-size: 0.98rem;
+  color: rgba(241, 230, 215, 0.9);
+}
+
 .countdown-card {
   background: #3f3028;
   border-radius: 18px;
