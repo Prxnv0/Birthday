@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For My BubBub  Birthday Countdown</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Lato:wght@300;400;700&family=Dancing+Script:wght@500;600&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="page-frame">
+        <header class="site-header">
+            <div class="logo-mark">
+                <img src="assets/logo-photo.png" alt="Us" class="logo-photo" />
+            </div>
+            <div class="header-text">
+                <p class="header-sub">A tiny corner of the internet just for you</p>
+                <h1 class="header-title">The Countdown to Your Day, My Love</h1>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero / Countdown Section -->
+            <section class="hero" id="hero">
+                <div class="hero-inner">
+                    <div class="hero-copy">
+                        <p class="eyebrow">February 8 · My Favourite Day</p>
+                        <h2 class="hero-heading">Counting down to you, BubBub.</h2>
+                        <p class="hero-description">
+                            Until the clock softly whispers midnight, this little space will keep
+                            track of every remaining heartbeat, second, and breath until your
+                            birthday arrives.
+                        </p>
+                    </div>
+
+                    <div class="countdown-card" id="countdown-card">
+                        <div class="countdown-content" id="countdown-content">
+                            <p class="countdown-label">Time until your birthday</p>
+                            <div class="countdown-timer" id="countdown">
+                                <div class="time-block">
+                                    <span class="time-number" id="days">--</span>
+                                    <span class="time-label">Days</span>
+                                </div>
+                                <div class="time-block">
+                                    <span class="time-number" id="hours">--</span>
+                                    <span class="time-label">Hours</span>
+                                </div>
+                                <div class="time-block">
+                                    <span class="time-number" id="minutes">--</span>
+                                    <span class="time-label">Minutes</span>
+                                </div>
+                                <div class="time-block seconds-block">
+                                    <div class="seconds-wrapper">
+                                        <span class="time-number" id="seconds">--</span>
+                                        <svg class="heart-beat" viewBox="0 0 32 29.6" aria-hidden="true">
+                                            <path d="M23.6,0c-2.7,0-5.1,1.5-7.6,4.1C13.5,1.5,11.1,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+                                            c6.1-9.1,16-12,16-21.2C32,3.8,28.2,0,23.6,0z"/>
+                                        </svg>
+                                    </div>
+                                    <span class="time-label">Seconds</span>
+                                </div>
+                            </div>
+                            <p class="countdown-subtext" id="countdown-subtext">
+                                When this reaches zero, a little midnight magic will unlock just for you.
+                            </p>
+                        </div>
+                        <p class="birthday-message" id="birthday-message" hidden>
+                            Happy Birthday, my BubBub. Your midnight surprise is now unlocked. <br />
+                            <a href="#letter" class="birthday-link" id="open-letter-link">Click here so my letter can be posted to you </a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Polaroid Memory Gallery (placeholder structure) -->
+            <section class="gallery" id="memories">
+                <div class="section-heading">
+                    <p class="eyebrow">Little moments, softly kept</p>
+                    <h2>Our Polaroid box of memories</h2>
+                </div>
+                <div class="polaroid-grid">
+                    <!-- Example card structure; replace src with real photos later -->
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper">
+                            <img src="assets/sample-1.jpg" alt="Us laughing together" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">Your laugh is my favourite sound.</p>
+                    </article>
+
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper">
+                            <img src="assets/sample-2.jpg" alt="Coffee date" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">Our quiet coffee corners, just us.</p>
+                    </article>
+
+                    <!-- <article class="polaroid">
+                        <div class="polaroid-photo-wrapper">
+                            <img src="assets/sample-3.jpg" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">You + city lights = my favourite view.</p>
+                    </article> -->
+                </div>
+                <section>
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper-eyes">
+                            <img src="assets/sample-9.jpg" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption" style="font-size: 1.25rem;">got alot to say, but always getting lost in your eyes.</p>
+                    </article>
+                </section>
+                
+                <div class="polaroid-grid">
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper-portrait">
+                            <img src="assets/sample-5.png" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">You + city lights = my favourite view.</p>
+                    </article>
+
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper-portrait">
+                            <img src="assets/sample-6.png" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">how can I skip annoying you😚</p>
+                    </article>
+
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper-portrait">
+                            <img src="assets/sample-7.png" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">You + city lights = my favourite view.</p>
+                    </article>
+
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper-portrait">
+                            <img src="assets/sample-8.png" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">You + city lights = my favourite view.</p>
+                    </article>
+                </div>
+
+                <section>
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper-eyes">
+                            <img src="assets/sample-13.png" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">You + city lights = my favourite view.</p>
+                    </article>
+                </section>
+
+                <div class="polaroid-grid">
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper-portrait">
+                            <img src="assets/sample-18.png" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">You + city lights = my favourite view.</p>
+                    </article>
+
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper-portrait">
+                            <img src="assets/sample-19.png" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">You + city lights = my favourite view.</p>
+                    </article>
+
+                    <!-- <article class="polaroid">
+                        <div class="polaroid-photo-wrapper-portrait">
+                            <img src="assets/sample-7.png" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">You + city lights = my favourite view.</p>
+                    </article>
+
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper-portrait">
+                            <img src="assets/sample-8.png" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">You + city lights = my favourite view.</p>
+                    </article> 
+                </div> -->
+
+                <div class="polaroid-grid">
+                    <!-- Example card structure; replace src with real photos later -->
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper">
+                            <img src="assets/sample-15.jpg" alt="Us laughing together" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">Your laugh is my favourite sound.</p>
+                    </article>
+
+                    <!-- <article class="polaroid">
+                        <div class="polaroid-photo-wrapper">
+                            <img src="assets/sample-16.jpg" alt="Coffee date" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">Our quiet coffee corners, just us.</p>
+                    </article> -->
+
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper">
+                            <img src="assets/sample-17.jpg" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">You + city lights = my favourite view.</p>
+                    </article>
+                </div>
+            </section>
+
+
+                                
+
+
+
+                        <!-- <div class="polaroid-grid">
+                        <article class="polaroid">
+                            <div class="polaroid-photo-wrapper">
+                                <img src="assets/sample-17.jpg" alt="City lights" class="polaroid-photo" />
+                            </div>
+                            <p class="polaroid-caption">You + city lights = my favourite view.</p>
+                        </article>
+
+                        <article class="polaroid">
+                            <div class="polaroid-photo-wrapper">
+                                <img src="assets/sample-17.jpg" alt="City lights" class="polaroid-photo" />
+                            </div>
+                            <p class="polaroid-caption">You + city lights = my favourite view.</p>
+                        </article>
+                        </div>
+
+                            <div class="polaroid-grid">
+                            <article class="polaroid">
+                                <div class="polaroid-photo-wrapper">
+                                    <img src="assets/sample-12.png" alt="City lights" class="polaroid-photo" />
+                                </div>
+                                <p class="polaroid-caption">You + city lights = my favourite view.</p>
+                            </article>
+                            </div>
+                    </section> -->
+                    
+                    
+
+                    <div class="polaroid-grid">
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper">
+                            <img src="assets/sample-23.png" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">You + city lights = my favourite view.</p>
+                    </article>
+
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper">
+                            <img src="assets/sample-22.jpg" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">You + city lights = my favourite view.</p>
+                    </article>
+                    </div>
+
+                                <section>
+                <div class="polaroid-grid">
+
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper-portrait">
+                            <img src="assets/sample-10.png" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">You + city lights = my favourite view.</p>
+                    </article>
+
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper-portrait">
+                            <img src="assets/sample-11.png" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">You + city lights = my favourite view.</p>
+                    </article>
+
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper-portrait">
+                            <img src="assets/sample-12.jpg" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">You + city lights = my favourite view.</p>
+                    </article>
+
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper-portrait">
+                            <img src="assets/sample-21.jpg" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">You + city lights = my favourite view.</p>
+                    </article>
+                </div>
+                </section>
+
+                <div class="polaroid-grid">
+                    <!-- Example card structure; replace src with real photos later -->
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper-portrait">
+                            <img src="assets/sample-28.png" alt="Us laughing together" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">Your laugh is my favourite sound.</p>
+                    </article>
+
+                    <section>
+                    <div class="polaroid-grid">
+                    
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper">
+                            <img src="assets/sample-24.png" alt="Coffee date" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">Our quiet coffee corners, just us.</p>
+                    </article>
+                    
+                    
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper">
+                            <img src="assets/sample-25.png" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">it's always been the way your eyes look at me💕</p>
+                    </article>
+
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper">
+                            <img src="assets/sample-29.jpeg" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">and I fell for you like raindrops🙈</p>
+                    </article>
+
+                    <article class="polaroid">
+                        <div class="polaroid-photo-wrapper">
+                            <img src="assets/sample-26.jpeg" alt="City lights" class="polaroid-photo" />
+                        </div>
+                        <p class="polaroid-caption">and I fell for you like raindrops🙈</p>
+                    </article>
+                </section>
+                </div>
+                </div>
+                
+
+            <!-- Envelope / Letter Section (structure only for now) -->
+            <section class="envelope-section" id="letter">
+                <div class="section-heading">
+                    <p class="eyebrow">For midnight, and for you</p>
+                    <h2>The little letter I wrote you</h2>
+                </div>
+
+                <div class="envelope-wrapper">
+                    <div class="envelope" id="envelope">
+                        <div class="envelope-front">
+                            <a href="#" class="envelope-link" id="envelope-link">
+                                <img src="assets/vintage-envelope.png" alt="Sealed vintage envelope with wax seal" class="envelope-image" />
+                            </a>
+                        </div>
+                        <div class="envelope-letter" id="envelope-letter">
+                            <!-- Letter content will be revealed and animated later -->
+                            <div class="letter-inner">
+                                <h3>For my BubBub</h3>
+                                <p>
+                                    This letter will gently appear for you once the clock reaches
+                                    midnight on your birthday.
+                                </p>
+                                <p class="letter-hint">Until then, it stays quietly sealed. 🤫</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="envelope-note" id="envelope-note">
+                        Tap the seal after midnight to open your letter.
+                    </p>
+                </div>
+            </section>
+
+            <div class="letter-overlay" id="letter-overlay"></div>
+        </main>
+
+        <footer class="site-footer">
+            <p>Handcrafted with <i class="fas fa-heart"></i> just for you.</p>
+            <button class="audio-toggle" id="audio-toggle" type="button">
+                <i class="fas fa-music" aria-hidden="true"></i>
+                <span>Play song</span>
+            </button>
+        </footer>
+    </div>
+
+    <!-- Audio for midnight reveal -->
+    <audio id="birthday-audio" src="assets/birthday-song.mp3" preload="auto"></audio>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
